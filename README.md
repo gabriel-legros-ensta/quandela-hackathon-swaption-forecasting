@@ -1,4 +1,4 @@
-# Quandela Hackathon
+# Quantum Machine Learning
 
 # Track 2: swaption forecasting with an MLP and a small quantum circuit
 
@@ -31,6 +31,5 @@ Simulated prices provided by Quandela: they calibrated a model on real market da
 | MLP | 0.002976 | 0.003970 | -1.4% |
 | Quantum circuit | 0.003149 | 0.004233 | -8.1% |
 
-- COBYLA stopped at its 200-evaluation limit without converging, so part of the gap with the MLP may just be optimisation budget.
 - Re-encoding the inputs at every layer (`reupload = True`) did not improve the validation error.
 - The circuit is simulated on a classical machine. This shows no quantum advantage.
