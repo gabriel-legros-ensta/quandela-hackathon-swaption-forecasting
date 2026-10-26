@@ -20,7 +20,7 @@ Simulated prices provided by Quandela: they calibrated a model on real market da
 - Models:
   - persistence: the next surface is the current one,
   - an MLP (4-32-4, ReLU, Adam, early stopping on validation),
-  - a 4-qubit variational circuit (4 layers, 32 parameters, trained with COBYLA, simulated with Qiskit `Statevector`).
+  - a 4-qubit variational circuit (3 layers, 32 parameters, trained with COBYLA, simulated with Qiskit `Statevector`).
 - The MLP and the circuit use the same 500 training pairs, because the circuit is slow to simulate.
 
 ## Results (test)
@@ -30,8 +30,8 @@ Simulated prices provided by Quandela: they calibrated a model on real market da
 | Model | MAE | RMSE | RMSE vs persistence |
 |---|---|---|---|
 | Persistence | 0.002946 | 0.003914 | n/a |
-| MLP | 0.002976 | 0.003970 | -1.4% |
-| Quantum circuit | 0.003149 | 0.004233 | -8.1% |
+| MLP | 0.002975 | 0.003959 | -1.5% |
+| Quantum circuit | 0.003070 | 0.004099 | -4.7% |
 
 - Re-encoding the inputs at every layer (`reupload = True`) did not improve the validation error.
 - The circuit is simulated on a classical machine. This shows no quantum advantage.
