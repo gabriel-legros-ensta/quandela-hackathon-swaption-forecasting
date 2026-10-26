@@ -23,9 +23,9 @@ Simulated prices provided by Quandela: they calibrated a model on real market da
   - a 4-qubit variational circuit (4 layers, 32 parameters, trained with COBYLA, simulated with Qiskit `Statevector`).
 - The MLP and the circuit use the same 400 training pairs, because the circuit is slow to simulate.
 
-## Results (test set)
+## Results (test)
 
-<img width="1352" height="383" alt="image" src="https://github.com/user-attachments/assets/ba6654a0-6dc3-4b32-a801-504ea1eb37cc" />
+<img width="1358" height="377" alt="image" src="https://github.com/user-attachments/assets/41a803d4-8c4f-4bdc-be71-d6140b910ae5" />
 
 | Model | MAE | RMSE | RMSE vs persistence |
 |---|---|---|---|
