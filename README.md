@@ -21,7 +21,7 @@ Simulated prices provided by Quandela: they calibrated a model on real market da
   - persistence: the next surface is the current one,
   - an MLP (4-32-4, ReLU, Adam, early stopping on validation),
   - a 4-qubit variational circuit (4 layers, 32 parameters, trained with COBYLA, simulated with Qiskit `Statevector`).
-- The MLP and the circuit use the same 400 training pairs, because the circuit is slow to simulate.
+- The MLP and the circuit use the same 500 training pairs, because the circuit is slow to simulate.
 
 ## Results (test)
 
