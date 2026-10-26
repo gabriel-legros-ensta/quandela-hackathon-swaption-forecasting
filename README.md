@@ -1,12 +1,16 @@
-# Quandela Hackathon, Track 2: swaption forecasting with an MLP and a small quantum circuit
+# Quandela Hackathon
 
-Short introductory hackathon organised by Quandela (less than a day), Track 2: swaption price prediction with quantum machine learning. I only worked on one piece of the problem: forecasting the next observation of the price surface, to compare a quantum circuit against classical baselines. The notebook was started during the hackathon and cleaned up afterwards.
+# Track 2: swaption forecasting with an MLP and a small quantum circuit
+
+Short introductory hackathon organised by Quandela (less than a day).
+
+Track 2: swaption price prediction with quantum machine learning. I only worked on one piece of the problem: forecasting the next observation of the price surface, to compare a quantum circuit against classical baselines.
 
 **Short version: neither the MLP nor the quantum circuit beats the "nothing changes" baseline.**
 
 ## Data
 
-Simulated prices provided by Quandela: they calibrated a model on real market data and generated the prices with a random number generator. 5000 dates, 224 columns (tenor × maturity). The file belongs to the organisers, so it's not in this repo: put your copy next to the notebook as `train_augmented.xlsx`.
+Simulated prices provided by Quandela: they calibrated a model on real market data and generated the prices with a random number generator. 5000 dates, 224 columns (tenor × maturity).
 
 ## Method
 
