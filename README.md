@@ -1,6 +1,6 @@
 # Quantum Machine Learning
 
-# Track 2: swaption forecasting with an MLP and a small quantum circuit
+## Track 2: swaption forecasting with an MLP and a small quantum circuit
 
 Short introductory hackathon organised by Quandela (less than a day).
 
