@@ -25,6 +25,8 @@ Simulated prices provided by Quandela: they calibrated a model on real market da
 
 ## Results (test set)
 
+<img width="1352" height="383" alt="image" src="https://github.com/user-attachments/assets/ba6654a0-6dc3-4b32-a801-504ea1eb37cc" />
+
 | Model | MAE | RMSE | RMSE vs persistence |
 |---|---|---|---|
 | Persistence | 0.002946 | 0.003914 | n/a |
